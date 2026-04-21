@@ -1,4 +1,4 @@
-document.querySelector('.tg-button').addEventListener('click', function(e) {
+document.querySelector('.tn-atom[href*="tg"]').addEventListener('click', function(e) {
 
   e.preventDefault();
   console.log(111)
@@ -11,7 +11,7 @@ document.querySelector('.tg-button').addEventListener('click', function(e) {
 
 });
 
-document.querySelector('.vk-button').addEventListener('click', function(e) {
+document.querySelector('.tn-atom[href*="vk"]').addEventListener('click', function(e) {
 
   e.preventDefault();
   console.log(222)
