@@ -1,6 +1,7 @@
 document.querySelector('.tg-button').addEventListener('click', function(e) {
 
   e.preventDefault();
+  console.log(111)
 
   document.querySelector('a.tg-login-advanced').trigger
 
@@ -13,6 +14,7 @@ document.querySelector('.tg-button').addEventListener('click', function(e) {
 document.querySelector('.vk-button').addEventListener('click', function(e) {
 
   e.preventDefault();
+  console.log(222)
 
   document.querySelector('.btn-login[data-provider="vk"]').trigger
 
