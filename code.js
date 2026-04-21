@@ -1,4 +1,4 @@
-document.querySelector('.tn-atom[href*="tg"]').addEventListener('click', function(e) {
+document.querySelector('.tn-atom[href*="t.me"]').addEventListener('click', function(e) {
   e.preventDefault();
   document.querySelector('a.tg-login-advanced').trigger
 
